@@ -137,4 +137,3 @@ class TestAccountService(TestCase):
         response = self.client.get("/accounts/0")
         self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
 
-
